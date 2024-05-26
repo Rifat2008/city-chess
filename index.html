@@ -3,6 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./font.css">
   <title>City chess</title>
 </head>
 <body>
@@ -10,9 +12,7 @@
     <div class="container">
       <div class="header__inner">
         <a href="#" class="header__logo">
-          <div class="header__icons">
-            <img src="" alt="horse icon" class="header__icon">
-          </div>
+          <img src="./assets/images/icons/logo-icon.svg" alt="horses" class="header__icon">
           <p class="header__logo-text">клуб четырех коней</p>
         </a>
       </div>
@@ -21,77 +21,73 @@
 
   <main>
     <section class="top">
-      <div class="top__inner">
-        <div class="top__sun">
-          <img src="" alt="text" class="top__sun-text">
-        </div>
-        <div class="top__images">
-          <div class="top__city">
-            <img src="" alt="city" class="top__city-image">
-            <img src="" alt="lines" class="top__city-bcg">
-          </div>
-          
-          <img src="" alt="king-fig" class="top__king-fig">
-          <img src="" alt="queen-fig" class="top__queen-fig">
-          <img src="" alt="horse-fig" class="top__horse-fig">
-          <img src="" alt="pawn-fig" class="top__pawn-fig">
-        </div>
-        <div class="top__content">
-          <h1 class="top__title">Превратите уездный город в столицу земного шара</h1>
-          <p class="top__subtitle">
-            Оплатите взнос на телеграммы для организации Международного васюкинского турнира по шахматам
-          </p>
-          <div class="top__buttons">
-            <button class="top__donate-btn">Поддержать шахматную мысль</button>
-            <button class="top__info-btn">Подробнее о турнире</button>
+      <div class="container">
+        <div class="top__inner">
+          <div class="top__content">
+            <h1 class="top__title">
+              Превратите уездный город 
+              <p class="top__title_str3">в столицу</p>  
+              <p class="top__title_str4">земного шара</p>
+            </h1>
+            <p class="top__subtitle">
+              Оплатите взнос на телеграммы для организации Международного васюкинского турнира по шахматам
+            </p>
+            <div class="top__buttons">
+              <button class="top__button top__donate-btn">Поддержать шахматную мысль</button>
+              <button class="top__button top__info-btn">Подробнее о турнире</button>
+            </div>
           </div>
         </div>
       </div>
     </section>
   
     <div class="ticker">
-      <p class="ticker__text">
-        Дело помощи утопающим — дело рук самих утопающих! . 
-        Шахматы двигают вперед не только культуру, но и экономику! .
-        Лед тронулся, господа присяжные заседатели! .
-      </p>
+        <div class="ticker__inner">
+          <div class="ticker__item">Дело помощи утопающим — дело рук самих утопающих!<img src="./assets/images/divided-point.png" alt="divided-point"></div>
+          
+          <div class="ticker__item">Шахматы двигают вперед не только культуру, но и экономику!<img src="./assets/images/divided-point.png" alt="divided-point" class="ticker__item"></div>
+          
+          <div class="ticker__item">Лед тронулся, господа присяжные заседатели!<img src="./assets/images/divided-point.png" alt="divided-point" class="ticker__item"></div>
+          
+        </div>
     </div>
 
     <section class="support">
       <div class="container">
         <div class="support__inner">
           <div class="support__header">
-            <h1 class="support__title">
-              Чтобы поддержать Международный васюкинский турнир посетите лекцию на тему: «Плодотворная дебютная идея»
-            </h1>
-            <img src="" alt="players" class="support__header-image">
+            <h2 class="support__title">
+              Чтобы поддержать Международный васюкинский турнир посетите лекцию на тему: <span>«Плодотворная дебютная идея»</span> 
+            </h2>
+            <img src="./assets/images/content/players.png" alt="players" class="support__header-image">
           </div>
           <div class="support__content">
-            <img src="" alt="player" class="support__content-image">
+            <img src="./assets/images/content/player.png" alt="player" class="support__content-image">
             <div class="support__session">
-              <h2 class="support__session-title">
-                и Сеанс одновременной игры в шахматы на 160 досках гроссмейстера О. Бендера
-              </h2>
-              <table cellspacing="0">
+              <p class="support__title">
+                и Сеанс <span>одновременной игры в шахматы на 160 досках</span> гроссмейстера О. Бендера
+              </p>
+              <table cellspacing="0" class="support__schedule">
                 
                 <tr>
-                 <td>Место проведения:</td><td>Клуб «Картонажник»</td>
+                 <td class="support__schedule-item">Место проведения:</td><td class="support__schedule-value">Клуб «Картонажник»</td>
                 </tr>
                 <tr>
-                 <td>Дата и время мероприятия:</td><td>22 июня 1927 г. в 18:00</td>
+                 <td class="support__schedule-item">Дата и время мероприятия:</td><td class="support__schedule-value">22 июня 1927 г. в 18:00</td>
                 </tr>
                 <tr>
-                 <td>Стоимость входных билетов:</td><td>20 коп.</td>
+                 <td class="support__schedule-item">Стоимость входных билетов:</td><td class="support__schedule-value">20 коп.</td>
                 </tr>
                 <tr>
-                  <td>Плата за игру:</td><td>50 коп.</td>
+                  <td class="support__schedule-item">Плата за игру:</td><td class="support__schedule-value">50 коп.</td>
                  </tr>
                  <tr>
-                  <td>Взнос на телеграммы:</td><td><span>100 руб.</span>21 руб. 16 коп.</td>
+                  <td class="support__schedule-item payment">Взнос на телеграммы:</td><td class="support__schedule-value payment"><span>100 руб.</span>&nbsp;&nbsp;21 руб. 16 коп.</td>
                  </tr>
                </table>
+               <p class="support__session-info">По всем вопросам обращаться в администрацию к К. Михельсону</p>
             </div>
-            <p class="support__session-info">По всем вопросам обращаться в администрацию к К. Михельсону</p>
+            
           </div>
         </div>
       </div>
@@ -109,42 +105,46 @@
           <div class="stages__content">
 
             <div class="stages__item">
-              <h3 class="stages__item-number">1</h3>
+              <div><h3 class="stages__item-number">1</h3></div>
               <p class="stages__item-text">Строительство железнодорожной магистрали Москва-Васюки</p>
             </div>
 
             <div class="stages__item">
-              <h3 class="stages__item-number">2</h3>
+              <div><h3 class="stages__item-number">2</h3></div>
               <p class="stages__item-text">Открытие фешенебельной гостиницы «Проходная пешка» и других небоскрёбов</p>
             </div>
 
-            <div class="stages__item">
-              <h3 class="stages__item-number">3</h3>
+            <div class="stages__item item-3">
+              <div><h3 class="stages__item-number">3</h3></div>
               <p class="stages__item-text">Поднятие сельского хозяйства в радиусе на тысячу километров: производство овощей, фруктов, икры, шоколадных конфет</p>
             </div>
 
             <div class="stages__item">
-              <h3 class="stages__item-number">4</h3>
+              <div><h3 class="stages__item-number">4</h3></div>
               <p class="stages__item-text">Строительство дворца для турнира</p>
             </div>
 
             <div class="stages__item">
-              <h3 class="stages__item-number">5</h3>
-              <p class="stages__item-text">Размещение гаражей для гостевого автотранспорта</p>
+              <div><h3 class="stages__item-number">5</h3></div>
+              <p class="stages__item-text">Размещение гаражей для гостевого<br>автотранспорта</p>
             </div>
 
             <div class="stages__item">
-              <h3 class="stages__item-number">6</h3>
+              <div><h3 class="stages__item-number">6</h3></div>
               <p class="stages__item-text">Постройка сверхмощной радиостанции для передачи всему миру сенсационных результатов</p>
             </div>
 
-            <div class="stages__item">
-              <h3 class="stages__item-number">7</h3>
+            <div class="stages__item item-7">
+              <div><h3 class="stages__item-number">7</h3></div>
               <p class="stages__item-text">Создание аэропорта «Большие Васюки» с регулярным отправлением почтовых самолётов и дирижаблей во все концы света, включая Лос-Анжелос и Мельбурн</p>
             </div>
 
           </div>
 
+          <div class="stages__image-wrapper">
+            <img src="./assets/images/content/airplane.png" alt="airplane" class="stages__image">
+          </div>
+          
         </div>
       </div>
     </section>
@@ -154,32 +154,33 @@
         <div class="participants__inner">
 
           <div class="participants__header">
-            <h2 class="participants__title"></h2>
-            <div class="participants__carousel-buttons carousel-btn">
-              <button class="carousel-btn__left">
-                <img src="" alt="arrow left">
+            <h2 class="participants__title">Участники турнира</h2>
+            <div class="participants__carousel-buttons">
+              <button class="carousel-btn">
+                <img src="./assets/images/icons/arrow-left.png" alt="arrow left">
               </button>
-              <button class="carousel-btn__right">
-                <img src="" alt="arrow right">
+              <p class="page">3<span>/6</span></p>
+              <button class="carousel-btn">
+                <img src="./assets/images/icons/arrow-right.png" alt="arrow right">
               </button>
             </div>
           </div>
           
           <div class="participants__carousel carousel">
             <div class="carousel__person">
-              <img src="" alt="person-photo" class="carousel__person-photo">
+              <img src="./assets/images/content/person.png" alt="person-photo" class="carousel__person-photo">
               <h3 class="carousel__person-name">Хозе-Рауль Капабланка</h3>
               <p class="carousel__person-rank">Чемпион мира по шахматам</p>
               <button class="carousel__person-info">Подробнее</button>
             </div>
             <div class="carousel__person">
-              <img src="" alt="person-photo" class="carousel__person-photo">
+              <img src="./assets/images/content/person.png" alt="person-photo" class="carousel__person-photo">
               <h3 class="carousel__person-name">Эммануил Ласкер</h3>
               <p class="carousel__person-rank">Чемпион мира по шахматам</p>
               <button class="carousel__person-info">Подробнее</button>
             </div>
             <div class="carousel__person">
-              <img src="" alt="person-photo" class="carousel__person-photo">
+              <img src="./assets/images/content/person.png" alt="person-photo" class="carousel__person-photo">
               <h3 class="carousel__person-name">Александр Алехин</h3>
               <p class="carousel__person-rank">Чемпион мира по шахматам</p>
               <button class="carousel__person-info">Подробнее</button>
@@ -191,12 +192,15 @@
     </section>
 
     <div class="ticker">
-      <p class="ticker__text">
-        Дело помощи утопающим — дело рук самих утопающих! . 
-        Шахматы двигают вперед не только культуру, но и экономику! .
-        Лед тронулся, господа присяжные заседатели! .
-      </p>
-    </div>
+      <div class="ticker__inner">
+        <div class="ticker__item">Дело помощи утопающим — дело рук самих утопающих!<img src="./assets/images/divided-point.png" alt="divided-point"></div>
+        
+        <div class="ticker__item">Шахматы двигают вперед не только культуру, но и экономику!<img src="./assets/images/divided-point.png" alt="divided-point" class="ticker__item"></div>
+        
+        <div class="ticker__item">Лед тронулся, господа присяжные заседатели!<img src="./assets/images/divided-point.png" alt="divided-point" class="ticker__item"></div>
+        
+      </div>
+  </div>
 
     <footer class="footer">
       <div class="container">
@@ -210,6 +214,6 @@
 
   </main>
 
-  
+  <script ></script>
 </body>
 </html>
